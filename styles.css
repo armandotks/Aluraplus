@@ -156,3 +156,42 @@ body{
     background-color: var(--botao--azul--efeito);
     color: var(--cor-de-fundo);
 }
+
+@media screen and (max-width: 728px) {
+
+    .container {
+        display: block;
+        background-image: none;
+        height: 100vh;
+    }
+
+    .container__titulo{
+        margin-top: 8em;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2.5em;
+    }
+
+    .secundario{
+        text-align: center;
+        margin: 4em 0;
+    }
+
+    .dispositivos__listas{
+        display: block;
+    }
+
+    .rodape__link{
+        display: block;
+        text-align: center;
+    }
+
+    .rodape{
+        padding: 2em;
+    }
+}
